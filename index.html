@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shorcut icon" href="./assets/favicom.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="encabezado">
+        <nav class="navegación">
+            <a class="navegación__enlace" href="#presentación">
+                <h2 class="navegación__título"> Antonella Onisimchuk</h2>
+            </a>
+            <ul class="enlaces">
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace" href="presentación">Inicio</a>
+                </li>
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace" href="sobre-mi">Sobre mí</a>
+                </li> 
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace" href="Proyectos">Proyectos</a>
+                </li>
+                </ul>
+        </nav>
+    </header>
+    <main class="Principal">
+        <section class="presentación" id="presentación">
+            <div class="presentación__contenedor_info">
+                <h1 class="presentación__título">Soy Desarrollador</h1>
+                <p class="presentación__párrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus consequatur explicabo natus, assumenda error quod deserunt rerum fugiat maiores ratione fuga itaque atque aliquid labore cum, dolorum hic, in molestias!</p>
+                </div>
+                <div class="presentación__contenedor_botones">
+                    <a href="#sobre-mí" class="botón" role="button">Sobre mí</a>
+                    <a href="./assets/docs/cv.pdf" target="_black" class="botón botón_oscuro" role="button">Descargar CV</a>
+                </div>
+                </section>
+                <article class="artículo sobre_mí" id="sobre-mí"
+                <h2 class="artículo__título">Un poco sobre mí</h2>
+                <div class="srtículo__contenedor_descripciones">
+                    <section class="sección_descripción__porta_retrato">
+                        <img
+                        class="sección_descripción__imagen"
+                        src="./assets/images/profile/trabajo2.jpg"
+                        alt="foto trabajando en la oficina"
+                        title="Trabajando en la oficina"
+                        />
+                    </div>
+                   
+                    <div
+                    class="sección_descripción__info scroll scroll_fino scroll_gris"
+                    aria-label="descripción personal"
+                    >
+                    <h3 class="sección_descripción__título" id="mi_historia_título">Mi historia</h3>
+                </h3>
+                <p
+                class="sección_descripción__párrafo"
+                aria-label="Detalles de mi historia"
+                aria-describedby="mi_historia_título"
+                >
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore alias illum nemo totam culpa. Sequi nemo reiciendis laborum delectus vel neque, enim, quasi commodi nostrum, mollitia blanditiis obcaecati laudantium optio!
+                </p>
+                <p
+                class="sección_descripción__párrafo"
+                aria-label="Detalles de mi historia"
+                aria-describedby="mi_historia_título"
+                >
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore alias illum nemo totam culpa. Sequi nemo reiciendis laborum delectus vel neque, enim, quasi commodi nostrum, mollitia blanditiis obcaecati laudantium optio!
+                </p>
+                <div class="contenedor_tarjetas_grid">
+
+                <article
+                clss="tarjeta__imagen"
+                src="./assets/images/proyectos/paisaje.jpg"
+                alt="imagen del proyecto"
+                title="Proyecto 1"
+                />
+                <div class="tarjeta__contenido"
+                <h3 class="tarjeta__título" id="título_proyecto_1">Título</h3>
+                <span class="tarjeta__divisor"></span>
+                <p
+                class="tarjeta__párrafo scroll scroll_fino"
+                aria-label="descripción de proyecto personal"
+                aria-describedby="título_proyecto_1"
+                >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut minus voluptates omnis! Expedita adipisci dolore reprehenderit? Minus ab a asperiores sed sint quae. Error reprehenderit suscipit commodi eos ad eligendi.
+                </p>
+                <a href="#" class="botón botón_oscuro" target="blank"
+                >Ver proyecto</a>
+                >
+                </div>
+            </article>
+         
+            <article
+            clss="tarjeta__imagen"
+            src="./assets/images/proyectos/paisaje.jpg"
+            alt="imagen del proyecto"
+            title="Proyecto 2"
+            />
+            <div class="tarjeta__contenido"
+            <h3 class="tarjeta__título" id="título_proyecto_2">Título</h3>
+            <span class="tarjeta__divisor"></span>
+            <p
+            class="tarjeta__párrafo scroll scroll_fino"
+            aria-label="descripción de proyecto personal"
+            aria-describedby="título_proyecto_2"
+            >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut minus voluptates omnis! Expedita adipisci dolore reprehenderit? Minus ab a asperiores sed sint quae. Error reprehenderit suscipit commodi eos ad eligendi.
+            </p>
+            <a href="#" class="botón botón_oscuro" target="blank"
+            >Ver proyecto</a>
+            >
+            </div>
+        </article>
+        
+        <article
+        clss="tarjeta__imagen"
+        src="./assets/images/proyectos/paisaje.jpg"
+        alt="imagen del proyecto"
+        title="Proyecto 3"
+        />
+        <div class="tarjeta__contenido"
+        <h3 class="tarjeta__título" id="título_proyecto_3">Título</h3>
+        <span class="tarjeta__divisor"></span>
+        <p
+        class="tarjeta__párrafo scroll scroll_fino"
+        aria-label="descripción de proyecto personal"
+        aria-describedby="título_proyecto_3"
+        >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut minus voluptates omnis! Expedita adipisci dolore reprehenderit? Minus ab a asperiores sed sint quae. Error reprehenderit suscipit commodi eos ad eligendi.
+        </p>
+        <a href="#" class="botón botón_oscuro" target="blank"
+        >Ver proyecto</a>
+        >
+        </div>
+    </article>
+    
+</main>
+                </body>
+                <footer class="pie_de_página" role="contentinfo">
+                    <div class="pie_de_página__columna">
+                        <h4 class="pie_de_página__título_columna">Mis redes</h4>
+                        <ul class="enlaces enlaces_redes">
+                            <li class="enlaces__item">
+                                <a
+                                class="enlaces__enlace enlaces__enlace__footer"
+                                href="http://github.com/StardustRiderNexi/StardustRiderNexi"
+                                target="_blank"
+                                ><img
+                                class="enlaces__ícono"
+                                src="./assets/images/logos/github-logo-png"
+                                alt="logo de github"
+                                title="github"
+                                /><a/>
+                            </li>
+                            <li class="enlaces__ítem"
+                            <a
+                            class="enlaces__enlace enlaces__enlace_footer"
+                            href="https/www.instagram.com/antonella_onisimchuk/"
+                            target="_blank"
+                            >
+                            <img
+                            class="enlaces__ícono"
+                            src="./assets/images/logos/ig-logo.png"
+                            alt="logo de instagram"
+                            title="instagram"
+                            />
+                            </a>
+                            
+                        </li>
+
+                        <li class="enlaces__ítem"
+                        <a
+                        class="enlaces__enlace enlaces__enlace_footer"
+                        href="https/www.fiverr.com/antonella_onisimchuk/"
+                        target="_blank"
+                        >
+                        <img
+                        class="enlaces__ícono"
+                        src="./assets/images/logos/fiverr-logo.png"
+                        alt="logo de fiverr"
+                        title="fiverr"
+                        />
+                        </a>
+                        
+                    </li>
+
+                    <li class="enlaces__ítem"
+                    <a
+                    class="enlaces__enlace enlaces__enlace_footer"
+                    href="https/www.linkedin.com/antonella_onisimchuk/"
+                    target="_blank"
+                    >
+                    <img
+                    class="enlaces__ícono"
+                    src="./assets/images/logos/linkedin.png"
+                    alt="logo de linkedin"
+                    title="linkedin"
+                    />
+                    </a>
+                    
+                </li>
+                        </ul>
+                        </div>
+
+                        <div class="pie_de_página__columna">
+                            <h4 class="pie_de_página__título_columna">Contactame</h4>
+                            <ul class="enlaces enlaces_vertical">
+                                <li class="enlaces__ítem">
+                                    <a
+                                    class="enlaces__enlace enlaces__enlace__footer"
+                                    href="antonellaonsimchukdeveloper@gmail.com"
+                                    target="_blank"
+                                    >Mail: mail@gmail.com</a>
+                                    >
+                                </li>
+                                </ul>
+                        </div>
+
+                    </div>
+                    <div class="pie_de_página__columna" role="navigation">
+                        <h4 class="pie_de_página__título_columna">Secciones</h4>
+                        <ul class="enlaces enlaces_vertical">
+                            <li class="enlaces__item">
+                                <a
+                                class="enlaces__enlace enlaces__enlace_footer"
+                                href="#presentation"
+                                >Inicio</a>
+                                >
+                            </li>
+                            <li class="enlaces__ítem">
+                                <a class="enlaces__enlace enlaces__enlace__footer" href="#sobre-mí">Sobre mí</a>
+                                >
+                                <li class="enlaces__ítem">
+                                    <a class="enlaces__enlace enlaces__enlace__footer" href="#proyectos">Proyectos</a>
+ </li>
+</ul>
+                    </div>
+                    <div class="pie_de_página__copyright">
+                        <p>Copyright 2024</p>
+                    </div>
+                    </footer>
+                </body>
+                </html>
+                                                  >
+
+
+
+                
+                
